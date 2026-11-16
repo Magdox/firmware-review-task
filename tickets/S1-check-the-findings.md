@@ -30,7 +30,7 @@ Write your answers in `answers/S1-verdicts.json`. It already holds the 12 ids:
 - For `unverified`, the reason says what is missing.
 - `shows` says what the file shows and the command that shows it.
 
-Then write your review report in `answers/REVIEW.md`, 800 words at most: what a customer and an engineer need
+Then write your review report in `answers/REVIEW.md`, 400 words at most: what a customer and an engineer need
 to know about this report. A template is there.
 
 ## Done means

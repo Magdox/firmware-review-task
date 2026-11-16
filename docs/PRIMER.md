@@ -67,6 +67,19 @@ An engine can get any of the three wrong. Checking them against the files is the
 - **Keys and certificates.** A PEM file is text whose first line names what it holds. A certificate is
   public. A private key must stay secret.
 
+## Looking inside a program (ticket S6)
+
+`strings` shows only text that is stored as it is. To see what a program does, a disassembler turns its
+bytes back into instructions: Ghidra and radare2 are free, and `objdump -d` is enough for a small program.
+The programs in this image are for 32-bit ARM, little-endian.
+
+## Standard formats (ticket S7)
+
+- **SBOM:** a list of the components inside a product. CycloneDX and SPDX are the two common formats.
+- **VEX:** a statement, per advisory, of whether it affects a product, and why not when it does not.
+- **CWE:** a public catalogue of kinds of weakness, each with a number.
+- **CVSS:** a way to score how severe a vulnerability is, written as a short vector.
+
 ## Kernel settings
 
 `boot/config` lists how the kernel was built. `CONFIG_SOMETHING=y` means the feature is built in, `=m` means it

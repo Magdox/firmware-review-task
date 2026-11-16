@@ -3,7 +3,7 @@
 **Area:** firmware. **Type:** judge. **Points:** 15. Optional.
 
 The engine's report is not complete. The image has at least three security problems that the report does not
-mention.
+mention. Three proven ones earn full marks.
 
 ## What to do
 

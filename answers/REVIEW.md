@@ -1,16 +1,11 @@
 # Review of the engine's report: Kestrel Dome 2, firmware 1.4.2
 
-800 words at most. Write for two readers: the customer who must decide what to fix, and the engineer who
-must improve the engine.
+400 words at most. Write for two readers: the customer who must decide what to fix, and the engineer who
+must improve the engine. Your verdicts are in `S1-verdicts.json`: do not repeat them one by one here.
 
 ## Summary
 
 Three or four sentences: how many findings are real, how many are not, and what matters most.
-
-## Findings
-
-| Id | Verdict | Why, in one line | Evidence |
-|---|---|---|---|
 
 ## What the report missed
 
